@@ -123,7 +123,7 @@
   color: rgba(46, 47, 66, 0.4);
 }
 
-.icon {
+.modal .icon {
   position: absolute;
   left: 16px;
   top: 50%;
@@ -133,7 +133,7 @@
   pointer-events: none;
 }
 
-.form-input:focus + .icon {
+.modal .form-input:focus + .icon {
   color: #4d5ae5;
 }
 
